@@ -1,0 +1,221 @@
+.border{
+    border:2px solid red;
+    width: 37%;
+    height: 70%;
+    position:absolute;
+    left: 32.5%;
+    top: 13%;
+    background-color:rgba(247, 130, 119, 0.874);
+}
+marquee
+{
+    font-size: 42px;
+    color:rgb(184, 10, 207);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 0.5%;
+}
+div{
+    position: relative;
+}
+.border1{
+    border:2px solid rgb(0, 255, 42);
+    width: 30.3%;
+    height: 42%;
+    position:absolute;
+    left: 36%;
+    top: 37%;
+    background-color: blueviolet;
+}
+.input{
+    width: 7%;
+    font-size: 30px;
+    position: relative;
+    left: 1.3%;
+    top: 0.2px;
+    background-color:wheat;
+}
+.operation{
+    width: 7%;
+    font-size: 30px;
+    position: relative;
+    left: 1.3%;
+    top: 0.2px;
+    background-color: rgb(245, 15, 195);
+    cursor: pointer;
+}
+.result{
+    width: 29.1%;
+    font-size:200%;
+    background-color: rgb(243, 182, 107);
+}
+.operand{
+    width: 13.3%;
+    background-color: rgb(122, 244, 244);
+    cursor: pointer;
+}
+.input:hover{
+    background-color:rgb(38, 255, 0);
+}
+.operation:hover
+{
+   background-color:rgb(0, 34, 255);
+}
+.operand:hover{
+    background-color:white ;
+}
+.input:active{
+    transform: scale(0.89);
+}
+.operation:active{
+    transform: scale(0.89);
+}
+.button{
+    position:absolute;
+     left: 42.5%; 
+     top:45%;
+     width: 14%; 
+     height: 10%;
+     font-size: 30px; 
+     border-radius:40px 40px 40px 40px;
+     background-color: rgba(13, 52, 227, 0.907);
+}
+.button:hover{
+    background-color:#ba00f3d8;
+}
+.button:active{
+    transform: scale(0.8);
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.marquee
+{
+    transform:translateX(56%);
+     color:rgb(81, 255, 0);
+     position:fixed;
+}
+@media (min-width:600px)and (max-width:700px){
+    .operand{
+        width: 11%;
+    }
+    .result{
+        width:26.5%
+    }
+    .input{
+        width: 6.5%;
+       
+    }
+    .button{
+        font-size: 20px;
+    }
+    .marquee{
+        font-size:30px;
+    }
+    marquee{
+        font-size: 38px;
+        margin: 1px;
+    }
+    .border{
+        width: 38%;
+        left: 32.2%;
+    }
+}
+@media (min-width:699px) and (max-width:800px){
+    .operand{
+        width: 11.7%;
+    }
+    .result{
+        width:27.3%
+    }
+    .input{
+        width: 6.8%;
+       
+    }
+    .button{
+        font-size: 24px;
+    }
+    .marquee{
+        font-size:34px;
+    }
+    marquee{
+        font-size: 40px;
+        margin-top: 1.5px;
+    }
+    .border
+    {
+        width: 39%;
+        left: 32%;
+    }
+}
+@media (min-width:400px) and (max-width:600px)
+{
+    .operand{
+        width: 10.3%;
+    }
+    .result{
+        width:26%
+    }
+    .input{
+        width: 6.2%;
+       
+    }
+    .button{
+        font-size: 18px;
+    }
+    .marquee{
+        font-size:28px;
+    }
+    marquee{
+        font-size: 34px;
+        margin-top: 8px;
+    }
+    .border
+    {
+        width: 39%;
+        left: 31.5%;
+    }
+}
+@media (min-width:1100px) and  (max-width:1170px)
+{
+    .operand
+    {
+        width: 13.2%;
+    }
+    .result{
+        width: 29%;
+    }
+}
+@media (min-width:799px) and  (max-width:1100px)
+{
+    .operand
+    {
+        width: 13%;
+    }
+    .result{
+        width: 29%;
+    }
+}
+@media   (max-width:400px)
+{
+    .operand
+    {
+        width: 7.3%;
+    }
+    .result{
+        width: 22%;
+    }
+    .input{
+        font-size: 22px;
+    }
+    .operation
+    {
+        font-size: 25px;
+    }
+    .border{
+        height: 66%;
+    }
+    .border1{
+        height: 38%;
+    }
+}

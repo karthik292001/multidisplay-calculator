@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>simple calculator</title>
+    <img src="../public/background.jfif" height="100%" width="100%" style="position: absolute;">
+  
+</head>
+<body>
+    <marquee>simple calculator</marquee>
+    <br><br><br><br>    
+    <div class="border"></div>
+    <div class="border1"></div>
+    <div  align="center">
+    <label>Result <input type="text" id="output"  class="result"></label>
+    <br><br>
+    <label>Op1 <input type="text" id="op1" onclick="dis1(this.id)" class="operand"></label>
+    <label>Op2 <input type="text" id="op2" onclick="dis1(this.id)" class="operand"></label>
+    </div>
+    <br><br>
+    <div align="center" >
+        <input type="button" value="1"  onclick="dis('1')" class="input">
+        <input type="button" value="2"  onclick="dis('2')"class="input" >
+        <input type="button" value="3"  onclick="dis('3')" class="input">
+        <input type="button" value="+" id="add" onclick="operation(this.id)" class="operation">
+        <br>
+        <br>
+        <input type="button" value="4"  onclick="dis('4')" class="input">
+        <input type="button" value="5"  onclick="dis('5')" class="input">
+        <input type="button" value="6"  onclick="dis('6')" class="input">
+        <input type="button" value="-" id="sub" onclick="operation(this.id)" class="operation">
+        <br><br>
+        <input type="button" value="7"  onclick="dis('7')" class="input">
+        <input type="button" value="8"  onclick="dis('8')" class="input">
+        <input type="button" value="9"  onclick="dis('9')" class="input">
+        <input type="button" value="*" id="mul" onclick="operation(this.id)" class="operation">
+        <br><br>
+        <input type="button" value="C" id="reset" onclick="operation(this.id)" class="input" style="background-color: rgb(244, 57, 57);">
+        <input type="button" value="."  onclick="dis('.')" class="input">
+        <!-- <input type="button" value="=" onclick="check()"> -->
+        <input type="button" value="0"  onclick="dis('0')" class="input">
+        <input type="button" value="/" id="div" onclick="operation(this.id)" class="operation">
+    </div>
+    <script type="text/javascript" src="../js/index.js"></script>
+</body>
+</html>
