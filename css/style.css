@@ -1,3 +1,6 @@
+html{
+    zoom:1.25;
+}
 .border{
     border:2px solid red;
     width: 37%;
@@ -12,7 +15,7 @@ marquee
     font-size: 42px;
     color:rgb(184, 10, 207);
     font-family:Arial, Helvetica, sans-serif;
-    margin-top: 0.5%;
+    margin-top: 0.2%;
 }
 div{
     position: relative;
@@ -20,10 +23,10 @@ div{
 .border1{
     border:2px solid rgb(0, 255, 42);
     width: 30.3%;
-    height: 42%;
+    height: 42.5%;
     position:absolute;
     left: 36%;
-    top: 37%;
+    top: 36.5%;
     background-color: blueviolet;
 }
 .input{
@@ -95,15 +98,47 @@ body{
      color:rgb(81, 255, 0);
      position:fixed;
 }
-@media (min-width:600px)and (max-width:700px){
+
+/* responsive design */
+@media (min-width:500px) and (max-width:700px)
+{
     .operand{
-        width: 11%;
+        width: 9.9%;
     }
     .result{
-        width:26.5%
+        width:25%
     }
     .input{
-        width: 6.5%;
+        width: 6%;
+        font-size: 27px;
+       
+    }
+    .button{
+        font-size: 18px;
+    }
+    .marquee{
+        font-size:28px;
+    }
+    marquee{
+        font-size: 36px;
+        margin-top:0.5px;
+    }
+    .border
+    {
+        width: 40%;
+        left: 31%;
+    }
+}
+@media (min-width:701px) and (max-width:800px){
+    .operand{
+        width: 10.7%;
+    }
+    .result{
+        width:26%
+    }
+    .input{
+        width: 6.2%;
+        font-size:27.5px;
        
     }
     .button{
@@ -114,22 +149,23 @@ body{
     }
     marquee{
         font-size: 38px;
-        margin: 1px;
+        margin-top: 0.5px;
     }
     .border{
-        width: 38%;
-        left: 32.2%;
+        width: 40%;
+        left: 31%;
     }
 }
-@media (min-width:699px) and (max-width:800px){
+@media (min-width:801px) and (max-width:900px){
     .operand{
-        width: 11.7%;
+        width: 11.3%;
     }
     .result{
-        width:27.3%
+        width:27%
     }
     .input{
-        width: 6.8%;
+        width: 6.4%;
+        font-size: 28px;
        
     }
     .button{
@@ -140,82 +176,80 @@ body{
     }
     marquee{
         font-size: 40px;
-        margin-top: 1.5px;
+        margin-top: 0.2px;
     }
     .border
     {
         width: 39%;
         left: 32%;
     }
+    .border1{
+        top:37%;
+    }
 }
-@media (min-width:400px) and (max-width:600px)
+@media (min-width:901px) and  (max-width:1200px)
 {
-    .operand{
-        width: 10.3%;
+    .operand
+    {
+        width: 11.2%;
     }
     .result{
-        width:26%
+        width: 25.4%;
     }
     .input{
-        width: 6.2%;
-       
+        width:6%;
     }
-    .button{
-        font-size: 18px;
+    .border
+    {
+        width: 37%;
+        left: 32.5%;
     }
-    .marquee{
-        font-size:28px;
+    .border1
+    {
+        width: 28%;
+        left: 37.1%;
+        top:37.3%;
     }
-    marquee{
-        font-size: 34px;
-        margin-top: 8px;
+}
+@media (min-width:1201px) and  (max-width:1270px)
+{
+    .operand
+    {
+        width: 12.7%;
+    }
+    .result{
+        width: 28.5%;
     }
     .border
     {
         width: 39%;
         left: 31.5%;
     }
-}
-@media (min-width:1100px) and  (max-width:1170px)
-{
-    .operand
-    {
-        width: 13.2%;
-    }
-    .result{
-        width: 29%;
+    .border1{
+        top:37.5%;
     }
 }
-@media (min-width:799px) and  (max-width:1100px)
+@media (max-width:500px)
 {
-    .operand
-    {
-        width: 13%;
+    .operand{
+        width:7.5%;
     }
     .result{
-        width: 29%;
-    }
-}
-@media   (max-width:400px)
-{
-    .operand
-    {
-        width: 7.3%;
-    }
-    .result{
-        width: 22%;
+        width: 22.5%;
     }
     .input{
-        font-size: 22px;
+        font-size: 21px;
     }
     .operation
     {
-        font-size: 25px;
+        font-size: 24px;
     }
     .border{
-        height: 66%;
+        height: 65%;
     }
     .border1{
-        height: 38%;
+        height: 37%;
+        width:31% ;
+        left: 35.3%;
     }
 }
